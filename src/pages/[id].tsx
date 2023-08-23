@@ -114,7 +114,7 @@ const Card = () => {
             <div className="flex gap-4">
               <Image
                 className="h-14 w-14 rounded-full"
-                src="https://i.pravatar.cc/150?img=11"
+                src={data.owner.image}
                 alt="owner"
                 width={100}
                 height={100}

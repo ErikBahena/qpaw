@@ -15,6 +15,7 @@ interface Animal {
   zip: string;
   description: string;
   owner: {
+    image: string;
     name: string;
     phone: string;
   };
