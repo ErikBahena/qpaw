@@ -17,6 +17,11 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+
+  // image
+  images: {
+    domains: ["placedog.net", "i.pravatar.cc"],
+  },
 };
 
 export default config;
