@@ -20,7 +20,7 @@ const config = {
 
   // image
   images: {
-    domains: ["placedog.net", "i.pravatar.cc"],
+    domains: ["imgur.com"],
   },
 };
 

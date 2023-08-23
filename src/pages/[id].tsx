@@ -116,8 +116,8 @@ const Card = () => {
                 className="h-14 w-14 rounded-full"
                 src={data.owner.image}
                 alt="owner"
-                width={100}
-                height={100}
+                width={400}
+                height={400}
               />
               <div className="flex flex-col">
                 <p className="font-semibold text-gray-800">{data.owner.name}</p>
