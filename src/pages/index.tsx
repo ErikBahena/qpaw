@@ -1,6 +1,8 @@
 import Head from "next/head";
+import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Hero from "~/components/Hero";
+import ProductList from "~/components/ProductList";
 
 export default function Home() {
   return (
@@ -12,8 +14,10 @@ export default function Home() {
       </Head>
       <main className={`flex min-h-screen flex-col`}>
         <Header />
-        <Hero />
+        <ProductList />
+        {/* <Hero /> */}
       </main>
+      <Footer />
     </>
   );
 }
