@@ -168,17 +168,17 @@ const Question = ({
               id="path4"
               d="M10 4.1665V15.8332"
               stroke="currentColor"
-              stroke-width="1.25"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.25"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               visibility={currentQuestion === id ? "hidden" : "visible"}
             />
             <path
               d="M4.16602 10H15.8327"
               stroke="currentColor"
-              stroke-width="1.25"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.25"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </button>

@@ -62,6 +62,18 @@ interface ProductCardProps {
   linkToProduct: string;
 }
 
+const bgMap: Record<string, string> = {
+  orange: "bg-orange-500",
+  teal: "bg-teal-500",
+  purple: "bg-purple-500",
+};
+
+const textMap: Record<string, string> = {
+  orange: "text-orange-500",
+  teal: "text-teal-500",
+  purple: "text-purple-500",
+};
+
 const ProductCard = ({
   color,
   imageSrc,
@@ -73,10 +85,8 @@ const ProductCard = ({
   return (
     <Link
       href={linkToProduct}
-      className={`${tailwindCssVariantGenerator(
-        "bg",
-        color
-      )} relative m-6 flex-shrink-0 overflow-hidden rounded-lg shadow-lg transition-all
+      className={`${bgMap[color]}
+       relative m-6 flex-shrink-0 overflow-hidden rounded-lg shadow-lg transition-all
        duration-500 hover:scale-105 hover:shadow-xl`}
     >
       <svg
@@ -119,10 +129,7 @@ const ProductCard = ({
         <div className="flex justify-between">
           <span className="block text-xl font-semibold">{title}</span>
           <button
-            className={`${tailwindCssVariantGenerator(
-              "text",
-              color
-            )} block items-center rounded-full bg-white px-3 py-2 text-xs font-semibold leading-none`}
+            className={`${textMap[color]} block items-center rounded-full bg-white px-3 py-2 text-xs font-semibold leading-none`}
           >
             ${price.toFixed(2)}
           </button>
@@ -130,8 +137,4 @@ const ProductCard = ({
       </div>
     </Link>
   );
-};
-
-const tailwindCssVariantGenerator = (prefix: string, color: string) => {
-  return `${prefix}-${color}-500`;
 };
