@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-5/12 xl:w-4/12">
               <div>
-                <span className="mx-auto mb-8 flex select-none items-center gap-2 text-3xl font-black leading-none text-gray-700">
+                <span className="mx-auto mb-8 flex select-none items-center gap-2 text-3xl font-black leading-none text-gray-900">
                   <Image src="/logo.png" alt="logo" width={50} height={50} />
-                  Qpaw
+                  Qtag
                 </span>
 
                 <div className="space-y-4">
@@ -46,7 +46,7 @@ const Footer = () => {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <g clip-path="url(#clip0_1006_31131)">
+                        <g clipPath="url(#clip0_1006_31131)">
                           <path
                             d="M18.225 23.3625C17.2125 23.3625 16.05 23.1 14.775 22.6125C12.225 21.6 9.41252 19.65 6.90002 17.1375C4.38752 14.625 2.43752 11.8125 1.42502 9.22502C0.300023 6.45002 0.412523 4.16252 1.72502 2.88752C1.76252 2.85002 1.83752 2.81252 1.87502 2.77502L5.02502 0.900018C5.81252 0.450018 6.82502 0.675018 7.35002 1.42502L9.56252 4.72502C10.0875 5.51252 9.86252 6.56252 9.11252 7.08752L7.76252 8.02502C8.73752 9.60002 11.5125 13.4625 15.9375 16.2375L16.7625 15.0375C17.4 14.1375 18.4125 13.875 19.2375 14.4375L22.5375 16.65C23.2875 17.175 23.5125 18.1875 23.0625 18.975L21.1875 22.125C21.15 22.2 21.1125 22.2375 21.075 22.275C20.4 22.9875 19.425 23.3625 18.225 23.3625ZM2.85002 4.16252C2.13752 4.95002 2.17502 6.56252 3.00002 8.62502C3.93752 10.9875 5.73752 13.575 8.10002 15.9375C10.425 18.2625 13.05 20.0625 15.375 21C17.4 21.825 19.0125 21.8625 19.8375 21.15L21.6375 18.075C21.6375 18.0375 21.6375 18.0375 21.6375 18L18.3375 15.7875C18.3375 15.7875 18.2625 15.825 18.1875 15.9375L17.3625 17.1375C16.8375 17.8875 15.825 18.1125 15.075 17.625C10.35 14.7 7.42502 10.6125 6.37502 8.96252C5.88752 8.17502 6.07502 7.16252 6.82502 6.63752L8.17502 5.70002V5.66252L5.96252 2.36252C5.96252 2.32502 5.92502 2.32502 5.88752 2.36252L2.85002 4.16252Z"
                             fill="#2563EB"
@@ -101,7 +101,7 @@ const Footer = () => {
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       My Profile
@@ -109,7 +109,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       My Order History
@@ -117,7 +117,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       Order Tracking
@@ -125,7 +125,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       Shopping Cart
@@ -144,7 +144,7 @@ const Footer = () => {
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       Computers &amp; Accessories
@@ -152,7 +152,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       Smartphones &amp; Tablets
@@ -160,7 +160,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       TV, Video &amp; Audio
@@ -168,7 +168,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="font-medium leading-6 text-gray-600 hover:text-gray-900"
                     >
                       Cameras, Photo &amp; Video
@@ -186,7 +186,7 @@ const Footer = () => {
 
                 <div className="sm:flex md:block lg:flex xl:block">
                   <a
-                    href="javascript:void(0)"
+                    href="#"
                     className="bg-primary hover:bg-blue-dark mb-3 mr-3 flex w-full max-w-[230px] items-center rounded-[5px]"
                   >
                     <span className="block pr-[10px]">
@@ -216,7 +216,7 @@ const Footer = () => {
                     </span>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="#"
                     className="bg-dark dark:bg-dark-2 mb-3 mr-3 flex w-full max-w-[230px] items-center rounded-[5px] px-[8px] py-2 hover:bg-opacity-90"
                   >
                     <span className="block pr-[14px]">
@@ -251,17 +251,19 @@ const Footer = () => {
       <div className="dark:border-dark-3 border-t py-8">
         <div className="container mx-auto">
           <div className="text-center">
-            <div className="mb-5">
-              <Image
-                src="/payment.svg"
-                alt="payment"
-                width={360}
-                height={1000}
-                className="mx-auto"
-              />
-            </div>
+            <Image
+              src="/payment.svg"
+              alt="payment"
+              width={300}
+              height={30}
+              className="mx-auto mb-5"
+            />
             <p className="font-medium text-gray-600">
-              © 2024 Qpaw. All Rights Reserved.
+              Connect, protect, and locate &mdash; your pet's safety journey
+              starts with Qtag.
+            </p>
+            <p className="mt-2 font-medium text-gray-600">
+              © 2024 Qtag. All Rights Reserved.
             </p>
           </div>
         </div>

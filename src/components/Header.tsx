@@ -20,7 +20,7 @@ const Header = () => {
             className="texdt-gray-900 mb-5 flex items-center font-medium md:mb-0 lg:w-auto lg:items-center lg:justify-center"
           >
             <span className="mx-auto flex select-none items-center gap-2 text-xl font-black leading-none text-gray-900">
-              <Image src="/logo.png" alt="logo" width={30} height={30} /> Qpaw
+              <Image src="/logo.png" alt="logo" width={30} height={30} /> Qtag
             </span>
           </Link>
           <nav className="mb-5 flex flex-wrap items-center text-base md:mb-0 md:ml-8 md:border-l md:border-gray-200 md:pl-8">
