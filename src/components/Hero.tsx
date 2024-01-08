@@ -19,7 +19,7 @@ const Hero = () => {
         </p>
         <p className="mt-2 text-gray-600">
           From vibrant colors to customizable designs, each tag tells a story -
-          your pet's story. Welcome to the future of pet care with Qtag.
+          your pet&lsquo;s story. Welcome to the future of pet care with Qtag.
         </p>
       </div>
       <div className="flex w-full justify-center md:w-1/2">

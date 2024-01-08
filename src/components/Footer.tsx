@@ -259,7 +259,7 @@ const Footer = () => {
               className="mx-auto mb-5"
             />
             <p className="font-medium text-gray-600">
-              Connect, protect, and locate &mdash; your pet's safety journey
+              Connect, protect, and locate &mdash; your pet&lsquo;s safety journey
               starts with Qtag.
             </p>
             <p className="mt-2 font-medium text-gray-600">
